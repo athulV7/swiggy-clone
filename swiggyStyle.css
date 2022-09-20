@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+}
+.main-body{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.leftside{
+    width: 56%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+}
+.rightside{
+    width: 44%;
+    height: 500px;
+}
+.image-lunch{
+    width: 100%;
+    height: 500px;
+}
+.logo{
+    height: 59px;
+    width: 197px;
+    margin-left: 77px;
+    margin-top: 60px;
+}
+.controls{
+    display: flex;
+    margin-top: 72px;
+    margin-left: 190px;
+}
+
+.login{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    font-size: 15px;
+    font-weight: 560;
+}
+
+.sign-up{
+    color: white;
+    text-decoration: none;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    font-size: 15px;
+    font-weight: 560;
+}
+.btn-login{
+    background: transparent;
+    border: none;
+}
+.btn-signup{
+    background-color: black;
+}
+button{
+    width: 110px;
+    height: 38px;
+}
+.headings{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.headings h1{
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -.45px;
+    margin-top: 140px;
+    margin-left: 55px;
+    margin-bottom: 0;
+}
+.headings h2{
+    font-weight: 300;
+    color: #686b78;
+    margin-top: 10px;
+    margin-left: 55px;
+}
+.loc{
+    position: absolute;
+    height: 40px;
+    width: 50px;
+}
+.loc input{
+    color: #686b78;
+    font-weight: 300;
+    width: 470px;
+    height: 53px;
+    margin-top: 300px;
+    margin-left: 75px;
+    padding-left: 20px;
+    font-size: 17px;
+}
+.btn-find{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 544px;
+    height: 59px;
+    width: 140px;
+    background-color: #fc8019;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+} 
+h3{
+    color: #686b78;
+    font-size: 14px;
+    font-weight: 550;
+    position: absolute;
+    margin-top: 390px;
+    margin-left: 75px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+.city-left{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    margin-right: 8px;
+    line-height: 1.5;
+    color: #4c526e;
+    letter-spacing: -.3px;
+}
+.city-right{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    margin-right: 8px;
+    line-height: 1.5;
+    color: #8f94ad;
+    letter-spacing: -.3px;
+}
+.cities{
+    position: absolute;
+    margin-top: 425px;
+    margin-left: 75px;
+}
+.container1{
+    background: #2b1e16;
+    padding-bottom: 15rem;
+    display: flex;
+    
+}
+.img1{
+    width: 110px;
+    height: 199px;
+    margin-left: 9rem;
+    object-fit: fill;
+}
+.img2{
+    width: 110px;
+    height: 199px;
+    margin-left: 21rem;
+    object-fit: fill;
+}
+.img3{
+    width: 130px;
+    margin-left: 21rem;
+    object-fit: fill;
+}
+.h3-1{
+    position: absolute;
+    color: white;
+    margin-left: -66rem;
+    margin-top: 16rem;
+    font-size: 20px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+.h3-2{
+    position: absolute;
+    color: white;
+    margin-left: -38rem;
+    margin-top: 16rem;
+    font-size: 20px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+.h3-3{
+    position: absolute;
+    color: white;
+    margin-left: -11rem;
+    margin-top: 16rem;
+    font-size: 20px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+.p1{
+    position: absolute;
+    color: #bcbec5;
+    margin-left: -67rem;
+    margin-top: 19rem;
+    font-size: 14px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    line-height: 1.5;
+}
+.p2{
+    position: absolute;
+    color: #bcbec5;
+    margin-left: -39rem;
+    margin-top: 19rem;
+    font-size: 14px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    line-height: 1.5;
+}
+.p3{
+    position: absolute;
+    color: #bcbec5;
+    margin-left: -11rem;
+    margin-top: 19rem;
+    font-size: 14px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    line-height: 1.5;
+}
+.container2{
+    background: white;
+    padding-bottom: 0px;
+    display: flex;
+    
+}
+.left-text h1{
+    margin-top: 111px;
+    margin-left: 81px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -.45px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+.left-text h3{
+    margin-top: 30px;
+    margin-left: 82px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #7e808c;
+    line-height: 1.2;
+}
+.mid-img{
+    width: 23rem;
+    margin-left: 16rem;
+}
+.right-img{
+    width: 23rem;
+    margin-right: 18px;
+    margin-left: -30px;
+    margin-top: 82px;
+}
+.playstore{
+    position: absolute;
+    width: 14%;
+    height: 9%;
+    margin-top: 21rem;
+    margin-left: 5rem;
+}
+.ios{
+    position: absolute;
+    margin-left: 18rem;
+    width: 14%;
+    height: 9%;
+    margin-top: 21rem;
+}
+.container3{
+    background: black;
+    padding-bottom: 0px;
+    display: flex;
+    width: 100%;
+    height: 480px;
+}
+.list-left{
+    margin-left: 40px;
+    margin-top: 65px;
+}
+.caption a{
+    color: gray;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    text-decoration: none;
+}
+.left-text a{
+    color: white;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 2.2;
+}
+.list-mid{
+    margin-left: 9rem;
+    margin-top: 65px;
+}
+.list-right{
+    margin-left: 9rem;
+    margin-top: 65px;
+}
+.play-co3{
+    position: absolute;
+    width: 14%;
+    height: 10%;
+    margin-top: 11rem;
+    margin-left: 67rem;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+.play-co3:hover{
+    width: 14.5%;
+    height: 10.5%;
+    transition: .2s;
+}
+.ios-co3:hover{
+    width: 14.5%;
+    height: 10.5%;
+    transition: .2s;
+}
+.ios-co3{
+    position: absolute;
+    width: 14%;
+    height: 10%;
+    margin-top: 5rem;
+    margin-left: 67rem;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+.container4{
+    background: black;
+    padding-bottom: 0px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.column1 a{
+    color: white;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 2.2;
+}
+.place-left{
+    margin-left: 40px;
+    margin-top: 70px;
+}
+.place2{
+    margin-left: 12rem;
+    margin-top: 70px;
+}
+.place3{
+    margin-left: 12rem;
+    margin-top: 70px;
+}
+.place4{
+    margin-left: 12rem;
+    margin-top: 70px;
+}
+.cap-co4{
+    color: gray;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    text-decoration: none;
+    width: 30rem;
+    margin-left: 78px;
+    position: absolute;
+    margin-top: 30px;
+}
+hr{
+    position: absolute;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 4rem;
+    color: #7e808c;
+}
+.footer-last{
+    width: 100%;
+    background-color: black;
+    float: left;
+}
+.swiggy2{
+    padding-left: 90px;
+    width: 135px;
+    height: 40px;
+    margin-top: 60px;
+}
+
+.copyright{
+    color: white;
+    width: 23px;
+    height: 22px;
+    padding-left: 580px;
+    margin-top: -33px;
+    position: absolute;
+}
+.year1{
+    color: white;
+    margin-left: 38rem;
+    margin-top: -2rem;
+    text-align: center;
+    position: absolute;
+    font-size: 19px;
+    font-weight: 100;
+    letter-spacing: -.6px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+.pinterest{
+    width: 34px;
+    height: 31px;
+    margin-top: -62px;
+    margin-left: -228px;
+    position: absolute;
+}
+.pinterest:hover{
+    width: 37px;
+    height: 34px;
+    transition: .2s;
+}
+.facebook{
+    width: 59px;
+    height: 45px;
+    margin-top: -63px;
+    margin-left: -291px;
+    position: absolute;
+}
+.facebook:hover{
+    width: 62px;
+    height: 48px;
+    transition: .2s;
+}
+.insta1{
+    width: 31px;
+    height: 27px;
+    margin-top: -60px;
+    margin-left: -173px;
+    position: absolute;
+}
+.insta1:hover{
+    width: 34px;
+    height: 27px;
+    transition: .2s;
+}
+.twitter{
+    width: 68px;
+    height: 70px;
+    margin-top: -80px;
+    margin-left: -143px;
+    position: absolute;
+    
+}
+.twitter:hover{
+    width: 71px;
+    height: 73px;
+    transition: .2s;
+}
+.social-media{
+    margin-right: 0px;
+    margin-top: 30px;
+    float: right;
+}
+.left-text:hover{
+   text-shadow: 1px 1px 1px white;
+}
+.column1:hover{
+    text-shadow: 1px 1px 1px white;
+}
